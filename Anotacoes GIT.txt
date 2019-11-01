@@ -1,0 +1,21 @@
+BRANCHES
+
+>> Branches permitem que diferentes versões do mesmo conteúdo se desenvolvam ao memso tempo, porém de forma independente, enquanto você recombina periodicamente as contribuições de diferentes branches em um processo chamado de "fusão" merging.
+
+>> 
+Comandos
+criação
+git branch 'nome branch' ou git checkout -b 'nome da branch'
+
+o comando git branch "nome da branch" cria uma nova branch no repositorio local, mas mantem a referencia do origin para a branch default no caso a master.
+Ja o comentado git branch -b "nome da Branch" cria uma nova branch e já troca a referencia do origin para a nova branch criada.
+
+
+git branch
+ira mostrar quyais granches temos criada em nosso repositorio
+
+git checkout "nome da branch"
+responsavel por trocar a referencia da branch
+
+deletentado git 
+git branch -D "Nome da branch"
