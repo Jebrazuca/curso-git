@@ -19,3 +19,35 @@ responsavel por trocar a referencia da branch
 
 deletentado git 
 git branch -D "Nome da branch"
+
+
+comando para consultar os commits, e suas estatísticas abreviadas, criados no Github
+git log --stat
+
+
+comando envia uma branch do repositório local ao repositório remoto
+git push origin <nome branch>
+
+
+comando é utilizado para marcar compromissos específicos no Git
+git tag ‘TEXTO’
+
+
+comando utilizado para ver um repositório remoto
+git remote
+
+
+comando feito para juntar arquivos de duas branches sem gerar um novo evento
+git rebase NOME_DO_ARQUIVO
+
+
+
+Para que seja possível adicionar um arquivo e fazer o commit em apenas um passo é necessário usar o comando
+git commit -a -m <comentário>
+
+
+Para que todos os repositórios remotos sejam listados, até a URL do repositório, qual comando deve ser usado
+git remote -v
+
+
+
